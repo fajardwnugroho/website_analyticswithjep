@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/2022-09-10-test-post/pt/index.html",
+    "href": "posts/2022-09-10-test-post/pt/index.html",
+    "title": "rstudio::conf 2022",
+    "section": "",
+    "text": "Olá! Nesta semana, participei do evento da RStudio: a rstudio::conf 2022!\nOutros posts de relatos do evento:\n\nJulio Trecenti: Parte 1 e Parte 2.\nMillie O. Symns"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analytics With Jep",
+    "section": "",
+    "text": "Analytics With Jep menyediakan course dalam bidang Data Analytics & Data Science  Kurikulum kami dibangun dengan pendekatan best practice dan industry related"
+  },
+  {
+    "objectID": "Courses.html#test",
+    "href": "Courses.html#test",
+    "title": "Data Analytics Course",
+    "section": "test",
+    "text": "test\n\nTest\n\n\nTest"
+  },
+  {
+    "objectID": "Courses.html#test-3",
+    "href": "Courses.html#test-3",
+    "title": "Data Analytics Course",
+    "section": "test",
+    "text": "test\n\nTest"
+  },
+  {
+    "objectID": "Courses.html#mentor",
+    "href": "Courses.html#mentor",
+    "title": "Data Analytics Course",
+    "section": "Mentor",
+    "text": "Mentor"
+  },
+  {
+    "objectID": "Courses.html#test-2",
+    "href": "Courses.html#test-2",
+    "title": "Data Analytics Course",
+    "section": "test",
+    "text": "test\n\nTest"
+  },
+  {
+    "objectID": "Courses.html",
+    "href": "Courses.html",
+    "title": "Data Analytics Course",
+    "section": "",
+    "text": "Peserta dapat mengoperasikan R dengan pendekatan Best Practice\nPeserta dapat melakukan Exploratory Data Analysis dengan Tidyverse\nPeserta dapat memvisualisasikan hasil analisis dengan GGPlot2\nPeserta dapat membangun report dengan Quarto\n\n\n\n\n\nMahasiswa atau Fresh Graduate untuk meningkatkan skill dan kompetensi\nPekerja dari level junior hingga senior"
+  },
+  {
+    "objectID": "Courses.html#learning-method",
+    "href": "Courses.html#learning-method",
+    "title": "Data Analytics Course",
+    "section": "Learning Method",
+    "text": "Learning Method\n\nLive Learning (Online)\n1 Sesi = 90 Menit\nPrivate Group Consultation\nPembahasan dengan Study Case\nClass Recording\nVideo Learning Bonus"
+  },
+  {
+    "objectID": "Courses.html#you-will-learn",
+    "href": "Courses.html#you-will-learn",
+    "title": "Data Analytics Course",
+    "section": "You Will Learn",
+    "text": "You Will Learn\n\nTidyverse R for Analytics\n\nData Type\nData Structure\nData Cleansing\nData Transformation\n\nStatistics with R\n\nDescriptive\nInference\n\nData Visualization with R\n\nGGPlot2\n\nProject : Creating Report & Publication"
+  },
+  {
+    "objectID": "Courses.html#class-will-start",
+    "href": "Courses.html#class-will-start",
+    "title": "Data Analytics Course",
+    "section": "Class Will Start",
+    "text": "Class Will Start"
+  },
+  {
+    "objectID": "Courses.html#checkout-course",
+    "href": "Courses.html#checkout-course",
+    "title": "Data Analytics Course",
+    "section": "Checkout Course",
+    "text": "Checkout Course"
+  },
+  {
+    "objectID": "Courses.html#schadule-class",
+    "href": "Courses.html#schadule-class",
+    "title": "Data Analytics Course",
+    "section": "Schadule Class",
+    "text": "Schadule Class\n\n\n\n\n\n\n\n\n\nMateri\nTanggal\nWaktu\nSesi\n\n\n\n\nTidyverse R for Analytics\nSenin, 19 September 2022\n19.00 - 22.00 WIB\n2\n\n\nStatistics with R\nSelasa, 20 September 2022\n19.00 - 22.00 WIB\n2\n\n\nData Visualization with R\nRabu, 21 September 2022\n19.00 - 22.00 WIB\n2\n\n\nProject : Creating Report & Publication\nKamis, 22 September 2022\n19.00 - 22.00 WIB\n2"
+  },
+  {
+    "objectID": "Courses.html#registration-course",
+    "href": "Courses.html#registration-course",
+    "title": "Data Analytics Course",
+    "section": "Registration Course",
+    "text": "Registration Course\n\nPromo Early Bird Hanya Sampai Rabu, 14 September 2022"
+  },
+  {
+    "objectID": "Courses.html#metode-pembelajaran",
+    "href": "Courses.html#metode-pembelajaran",
+    "title": "Data Analytics Course",
+    "section": "Metode Pembelajaran",
+    "text": "Metode Pembelajaran\n\nLive Learning (Online)\n1 Sesi = 90 Menit\nPrivate Group Consultation\nPembahasan dengan Study Case\nClass Recording\nVideo Learning Bonus"
+  },
+  {
+    "objectID": "Courses.html#metode-belajar",
+    "href": "Courses.html#metode-belajar",
+    "title": "Data Analytics Course",
+    "section": "Metode Belajar",
+    "text": "Metode Belajar\n\nLive Learning (Online)\n1 Sesi -> 90 Menit\nPrivate Group Consultation by WA Group\nPembahasan dengan Study Case\nClass Recording\nVideo Learning Bonus"
+  },
+  {
+    "objectID": "Courses.html#kamu-akan-belajar",
+    "href": "Courses.html#kamu-akan-belajar",
+    "title": "Data Analytics Course",
+    "section": "Kamu Akan Belajar",
+    "text": "Kamu Akan Belajar\n\nTidyverse R for Analytics\n\nData Type\nData Structure\nData Cleansing\nData Transformation\n\nStatistics with R\n\nDescriptive\nInference\n\nData Visualization with R\n\nGGPlot2\n\nProject : Creating Report & Publication"
+  },
+  {
+    "objectID": "Courses.html#jadwal-course",
+    "href": "Courses.html#jadwal-course",
+    "title": "Data Analytics Course",
+    "section": "Jadwal Course",
+    "text": "Jadwal Course\n\n\n\n\n\n\n\n\n\nMateri\nTanggal\nWaktu\nSesi\n\n\n\n\nTidyverse R for Analytics\nSenin, 19 September 2022\n19.00 - 22.00 WIB\n2\n\n\nStatistics with R\nSelasa, 20 September 2022\n19.00 - 22.00 WIB\n2\n\n\nData Visualization with R\nRabu, 21 September 2022\n19.00 - 22.00 WIB\n2\n\n\nProject : Creating Report & Publication\nKamis, 22 September 2022\n19.00 - 22.00 WIB\n2"
+  },
+  {
+    "objectID": "Courses.html#biaya-course",
+    "href": "Courses.html#biaya-course",
+    "title": "Data Analytics Course",
+    "section": "Biaya Course",
+    "text": "Biaya Course\n\nDapatkan Promo Early Bird 70 %\n\n\nRp 499,000 -> Rp 149,000\n\nKamu bisa hemat Rp 350,000"
+  },
+  {
+    "objectID": "Courses.html#registrasi-course",
+    "href": "Courses.html#registrasi-course",
+    "title": "Data Analytics Course",
+    "section": "Registrasi Course",
+    "text": "Registrasi Course\n\nPromo Early Bird Hanya Sampai Rabu, 14 September 2022\n\n\nSegera Daftarkan Dirimu Regis Course !"
+  },
+  {
+    "objectID": "index.html#course",
+    "href": "index.html#course",
+    "title": "Analytics With Jep",
+    "section": "Course",
+    "text": "Course"
+  }
+]

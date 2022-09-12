@@ -1,0 +1,71 @@
+---
+title: "Data Analytics Course"
+editor: visual
+---
+
+## Tentang Course
+
+### Goals dari course ini adalah :
+
+-   Peserta dapat mengoperasikan R dengan pendekatan **Best Practice**
+-   Peserta dapat melakukan **Exploratory Data Analysis** dengan **Tidyverse**
+-   Peserta dapat memvisualisasikan hasil analisis dengan **GGPlot2**
+-   Peserta dapat membangun report dengan **Quarto**
+
+### Course ini ditujukan untuk :
+
+-   Mahasiswa atau Fresh Graduate untuk meningkatkan skill dan kompetensi
+-   Pekerja dari level junior hingga senior
+
+## Metode Belajar
+
+-   Live Learning (Online)
+-   1 Sesi -\> 90 Menit
+-   Private Group Consultation by WA Group
+-   Pembahasan dengan Study Case
+-   Class Recording
+-   Video Learning ***Bonus***
+
+## Kamu Akan Belajar
+
+-   Tidyverse R for Analytics
+    -   Data Type
+    -   Data Structure
+    -   Data Cleansing
+    -   Data Transformation
+-   Statistics with R
+    -   Descriptive
+    -   Inference
+-   Data Visualization with R
+    -   GGPlot2
+-   Project : Creating Report & Publication
+
+## Jadwal Course
+
+| Materi                                  | Tanggal                   | Waktu             | Sesi |
+|---------------------------|-----------------|--------------|--------------|
+| Tidyverse R for Analytics               | Senin, 19 September 2022  | 19.00 - 22.00 WIB | 2    |
+| Statistics with R                       | Selasa, 20 September 2022 | 19.00 - 22.00 WIB | 2    |
+| Data Visualization with R               | Rabu, 21 September 2022   | 19.00 - 22.00 WIB | 2    |
+| Project : Creating Report & Publication | Kamis, 22 September 2022  | 19.00 - 22.00 WIB | 2    |
+
+## Biaya Course
+
+#### Dapatkan Promo Early Bird **70 %**
+
+#### Rp ~~499,000~~ -\> Rp 149,000
+
+##### Kamu bisa hemat Rp 350,000
+
+## Registrasi Course
+
+### Promo Early Bird Hanya Sampai Rabu, 14 September 2022
+
+### Segera Daftarkan Dirimu <a class="mayar-button iframe-lightbox-link" href="https://analyticswithjep.mayar.link/webinar/data-analytics-course?iframe=true" data-padding-bottom="10%" data-scrolling="true">Regis Course !</a>
+
+```{=html}
+<script type="text/javascript" src="https://mayarembed.s3.ap-southeast-1.amazonaws.com/mayar-min.js"></script>
+```
+<!-- ### Masih Ragu? <a class="mayar-button iframe-lightbox-link" href="https://analyticswithjep.mayar.link/webinar/test-webinar-65804?iframe=true" data-padding-bottom="10%" data-scrolling="true"><span></span>Join Trial Course !</a> -->
+
+<!-- <script type="text/javascript" src="https://mayarembed.s3.ap-southeast-1.amazonaws.com/mayar-min.js"></script> -->

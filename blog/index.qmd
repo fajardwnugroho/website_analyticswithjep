@@ -1,0 +1,16 @@
+---
+title: Jep Journal
+subtitle: Tips for best practice analytics with R
+listing:
+  sort: "date desc"
+  contents: "posts"
+  sort-ui: false
+  filter-ui: false
+  categories: true
+  feed: true
+page-layout: full
+# margin-header: signup.html
+title-block-banner: "#6c757d"
+title-block-banner-color: body
+search: false
+---

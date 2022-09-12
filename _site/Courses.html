@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Analytics With Jep - Data Analytics Course</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="./machine_learning.html" rel="next">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <img src="./images/Logo_AWJ.png" alt="">
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./Courses.html" aria-current="page">Course</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/index.html">Journal</a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Data Analytics Course</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
+      <a href="./" class="sidebar-logo-link">
+      <img src="./images/Logo_AWJ.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Courses.html" class="sidebar-item-text sidebar-link active">Data Analytics Course</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./machine_learning.html" class="sidebar-item-text sidebar-link">Machine Learning Course</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./shiny.html" class="sidebar-item-text sidebar-link">Shiny Course</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Blog_with_R.html" class="sidebar-item-text sidebar-link">Blog with R Course</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tentang-course" id="toc-tentang-course" class="nav-link active" data-scroll-target="#tentang-course">Tentang Course</a>
+  <ul class="collapse">
+  <li><a href="#goals-dari-course-ini-adalah" id="toc-goals-dari-course-ini-adalah" class="nav-link" data-scroll-target="#goals-dari-course-ini-adalah">Goals dari course ini adalah :</a></li>
+  <li><a href="#course-ini-ditujukan-untuk" id="toc-course-ini-ditujukan-untuk" class="nav-link" data-scroll-target="#course-ini-ditujukan-untuk">Course ini ditujukan untuk :</a></li>
+  </ul></li>
+  <li><a href="#metode-belajar" id="toc-metode-belajar" class="nav-link" data-scroll-target="#metode-belajar">Metode Belajar</a></li>
+  <li><a href="#kamu-akan-belajar" id="toc-kamu-akan-belajar" class="nav-link" data-scroll-target="#kamu-akan-belajar">Kamu Akan Belajar</a></li>
+  <li><a href="#jadwal-course" id="toc-jadwal-course" class="nav-link" data-scroll-target="#jadwal-course">Jadwal Course</a></li>
+  <li><a href="#biaya-course" id="toc-biaya-course" class="nav-link" data-scroll-target="#biaya-course">Biaya Course</a></li>
+  <li><a href="#registrasi-course" id="toc-registrasi-course" class="nav-link" data-scroll-target="#registrasi-course">Registrasi Course</a>
+  <ul class="collapse">
+  <li><a href="#promo-early-bird-hanya-sampai-rabu-14-september-2022" id="toc-promo-early-bird-hanya-sampai-rabu-14-september-2022" class="nav-link" data-scroll-target="#promo-early-bird-hanya-sampai-rabu-14-september-2022">Promo Early Bird Hanya Sampai Rabu, 14 September 2022</a></li>
+  <li><a href="#segera-daftarkan-dirimu-regis-course" id="toc-segera-daftarkan-dirimu-regis-course" class="nav-link" data-scroll-target="#segera-daftarkan-dirimu-regis-course">Segera Daftarkan Dirimu </a><a class="mayar-button iframe-lightbox-link nav-link" href="https://analyticswithjep.mayar.link/webinar/data-analytics-course?iframe=true" data-padding-bottom="10%" data-scrolling="true" data-scroll-target="https\://analyticswithjep.mayar.link/webinar/data-analytics-course?iframe=true">Regis Course !</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Data Analytics Course</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="tentang-course" class="level2">
+<h2 class="anchored" data-anchor-id="tentang-course">Tentang Course</h2>
+<section id="goals-dari-course-ini-adalah" class="level3">
+<h3 class="anchored" data-anchor-id="goals-dari-course-ini-adalah">Goals dari course ini adalah :</h3>
+<ul>
+<li>Peserta dapat mengoperasikan R dengan pendekatan <strong>Best Practice</strong></li>
+<li>Peserta dapat melakukan <strong>Exploratory Data Analysis</strong> dengan <strong>Tidyverse</strong></li>
+<li>Peserta dapat memvisualisasikan hasil analisis dengan <strong>GGPlot2</strong></li>
+<li>Peserta dapat membangun report dengan <strong>Quarto</strong></li>
+</ul>
+</section>
+<section id="course-ini-ditujukan-untuk" class="level3">
+<h3 class="anchored" data-anchor-id="course-ini-ditujukan-untuk">Course ini ditujukan untuk :</h3>
+<ul>
+<li>Mahasiswa atau Fresh Graduate untuk meningkatkan skill dan kompetensi</li>
+<li>Pekerja dari level junior hingga senior</li>
+</ul>
+</section>
+</section>
+<section id="metode-belajar" class="level2">
+<h2 class="anchored" data-anchor-id="metode-belajar">Metode Belajar</h2>
+<ul>
+<li>Live Learning (Online)</li>
+<li>1 Sesi -&gt; 90 Menit</li>
+<li>Private Group Consultation by WA Group</li>
+<li>Pembahasan dengan Study Case</li>
+<li>Class Recording</li>
+<li>Video Learning <strong><em>Bonus</em></strong></li>
+</ul>
+</section>
+<section id="kamu-akan-belajar" class="level2">
+<h2 class="anchored" data-anchor-id="kamu-akan-belajar">Kamu Akan Belajar</h2>
+<ul>
+<li>Tidyverse R for Analytics
+<ul>
+<li>Data Type</li>
+<li>Data Structure</li>
+<li>Data Cleansing</li>
+<li>Data Transformation</li>
+</ul></li>
+<li>Statistics with R
+<ul>
+<li>Descriptive</li>
+<li>Inference</li>
+</ul></li>
+<li>Data Visualization with R
+<ul>
+<li>GGPlot2</li>
+</ul></li>
+<li>Project : Creating Report &amp; Publication</li>
+</ul>
+</section>
+<section id="jadwal-course" class="level2">
+<h2 class="anchored" data-anchor-id="jadwal-course">Jadwal Course</h2>
+<table class="table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 23%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Materi</th>
+<th>Tanggal</th>
+<th>Waktu</th>
+<th>Sesi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tidyverse R for Analytics</td>
+<td>Senin, 19 September 2022</td>
+<td>19.00 - 22.00 WIB</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Statistics with R</td>
+<td>Selasa, 20 September 2022</td>
+<td>19.00 - 22.00 WIB</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Data Visualization with R</td>
+<td>Rabu, 21 September 2022</td>
+<td>19.00 - 22.00 WIB</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Project : Creating Report &amp; Publication</td>
+<td>Kamis, 22 September 2022</td>
+<td>19.00 - 22.00 WIB</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="biaya-course" class="level2">
+<h2 class="anchored" data-anchor-id="biaya-course">Biaya Course</h2>
+<section id="dapatkan-promo-early-bird-70" class="level4">
+<h4 class="anchored" data-anchor-id="dapatkan-promo-early-bird-70">Dapatkan Promo Early Bird <strong>70 %</strong></h4>
+</section>
+<section id="rp-499000---rp-149000" class="level4">
+<h4 class="anchored" data-anchor-id="rp-499000---rp-149000">Rp <del>499,000</del> -&gt; Rp 149,000</h4>
+<section id="kamu-bisa-hemat-rp-350000" class="level5">
+<h5 class="anchored" data-anchor-id="kamu-bisa-hemat-rp-350000">Kamu bisa hemat Rp 350,000</h5>
+</section>
+</section>
+</section>
+<section id="registrasi-course" class="level2">
+<h2 class="anchored" data-anchor-id="registrasi-course">Registrasi Course</h2>
+<section id="promo-early-bird-hanya-sampai-rabu-14-september-2022" class="level3">
+<h3 class="anchored" data-anchor-id="promo-early-bird-hanya-sampai-rabu-14-september-2022">Promo Early Bird Hanya Sampai Rabu, 14 September 2022</h3>
+</section>
+<section id="segera-daftarkan-dirimu-regis-course" class="level3">
+<h3 class="anchored" data-anchor-id="segera-daftarkan-dirimu-regis-course">Segera Daftarkan Dirimu <a class="mayar-button iframe-lightbox-link" href="https://analyticswithjep.mayar.link/webinar/data-analytics-course?iframe=true" data-padding-bottom="10%" data-scrolling="true">Regis Course !</a></h3>
+<script type="text/javascript" src="https://mayarembed.s3.ap-southeast-1.amazonaws.com/mayar-min.js"></script>
+<!-- ### Masih Ragu? <a class="mayar-button iframe-lightbox-link" href="https://analyticswithjep.mayar.link/webinar/test-webinar-65804?iframe=true" data-padding-bottom="10%" data-scrolling="true"><span></span>Join Trial Course !</a> -->
+<!-- <script type="text/javascript" src="https://mayarembed.s3.ap-southeast-1.amazonaws.com/mayar-min.js"></script> -->
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./machine_learning.html" class="pagination-link">
+        <span class="nav-page-text">Machine Learning Course</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">This page is built with ❤️, R and <a href="https://quarto.org/">Quarto</a>.</div>   
+  </div>
+</footer>
+
+
+
+</body></html>

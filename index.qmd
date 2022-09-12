@@ -1,0 +1,16 @@
+---
+title: "Analytics With Jep"
+image: "images/Logo_AWJ.png"
+about:
+  template: jolla
+  links:
+    # - text: Trial Course
+    #   href: http://localhost:4823/hello.html
+    - text: Detail Course
+      href: https://analyticswithjep.com/courses
+    # (additional links excluded for brevity)
+---
+
+## R Course
+
+Analytics With Jep menyediakan course dalam bidang Data Analytics & Data Science </br> Kurikulum kami dibangun dengan pendekatan best practice dan industry related

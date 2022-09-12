@@ -1,0 +1,96 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+  title: "Analytics With Jep"
+  description: "Learning Data Science with R"
+  search: false
+  
+  
+  
+  
+  page-footer:
+    left: "This page is built with ❤️, R and [Quarto](https://quarto.org/)."
+    background: "#375a7f"
+    # right:
+    # - text: "License"
+    #   href: LICENSE.md
+    # - text: "Code of Conduct"
+    #   href: CODE_OF_CONDUCT.md
+  
+  
+  
+  
+  navbar:
+    # background: "#A7D5E8"
+    logo: "images/Logo_AWJ.png"
+    search: false
+    align: center
+    title: false
+    collapse-below: lg
+
+
+
+
+    # right:
+
+  
+  
+  
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Course"
+        href: Courses.qmd
+      - text: "Journal"
+        href: blog/index.qmd
+      # - text: "Get Started"
+      #   href: hello.qmd
+
+
+
+
+
+  sidebar:
+    - id: Course
+      title: "Data Analytics Course"
+      pinned: true
+      style: "docked"
+      logo: "images/Logo_AWJ.png"
+      collapse-level: 3
+      align: center
+      contents:
+        - href: Courses.qmd
+          text: Data Analytics Course
+        - href: machine_learning.qmd
+          text: Machine Learning Course
+        - href: shiny.qmd
+          text: Shiny Course
+        - href: Blog_with_R.qmd
+          text: Blog with R Course
+
+    - id: Trial Course
+      title: "Trial Course"
+      contents:
+        - href: trial_course.qmd
+        - href: 02-trial-page-2.qmd
+        - href: 02-trial-page-3.qmd
+        - href: 02-trial-page-4.qmd
+
+
+
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+
+
+freeze: auto
+
+editor: visual
+
