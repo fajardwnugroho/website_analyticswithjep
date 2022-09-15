@@ -43,11 +43,11 @@ editor: visual
 ## Jadwal Course
 
 | Materi                                  | Tanggal                   | Waktu             | Sesi |
-|---------------------------|-----------------|--------------|--------------|
-| Tidyverse R for Analytics               | Senin, 19 September 2022  | 19.00 - 22.00 WIB | 2    |
-| Statistics with R                       | Selasa, 20 September 2022 | 19.00 - 22.00 WIB | 2    |
-| Data Visualization with R               | Rabu, 21 September 2022   | 19.00 - 22.00 WIB | 2    |
-| Project : Creating Report & Publication | Kamis, 22 September 2022  | 19.00 - 22.00 WIB | 2    |
+|-----------------------------------------|---------------------------|-------------------|------|
+| Tidyverse R for Analytics               | Senin, 3 Oktober 2022     | 19.00 - 22.00 WIB | 2    |
+| Statistics with R                       | Selasa, 4 Oktober 2022    | 19.00 - 22.00 WIB | 2    |
+| Data Visualization with R               | Rabu, 5 Oktober 2022      | 19.00 - 22.00 WIB | 2    |
+| Project : Creating Report & Publication | Kamis, 6 Oktober 2022     | 19.00 - 22.00 WIB | 2    |
 
 ## Biaya Course
 
@@ -59,7 +59,7 @@ editor: visual
 
 ## Registrasi Course
 
-### Promo Early Bird Hanya Sampai Rabu, 14 September 2022
+### Promo Early Bird Hanya Sampai Minggu, 18 September 2022
 
 ### Segera Daftarkan Dirimu <a class="mayar-button iframe-lightbox-link" href="https://analyticswithjep.mayar.link/webinar/data-analytics-course?iframe=true" data-padding-bottom="10%" data-scrolling="true">Regis Course !</a>
 
